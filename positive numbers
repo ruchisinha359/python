@@ -1,0 +1,8 @@
+input_string = input("Enter list elements separated by space ")
+
+print("\n")
+List = input_string.split()
+print(" ", List)
+for num in List: 
+    if int(num) >= 0: 
+       print(num, end = " ")
