@@ -1,0 +1,16 @@
+n = int(input("Enter any number: "))
+nA, nB = 0, 1
+count = 0
+if n<= 0:
+   print("Fibonacci series is only possible with positive integers")
+elif n == 1:
+   print("The Fibonacci numbers are the numbers in the following integer series",n,":")
+   print(nA)
+else:
+   print("The Fibonacci numbers are the numbers in the following integer series:")
+   while count < n:
+       print(nA)
+       nth = nA + nB
+       nA = nB
+       nB = nth
+       count += 1
