@@ -1,0 +1,11 @@
+def most_frequent(str1):
+    str1=str(input("Please enter a string: "))
+    dict = {}
+    for n in str1:
+        keys = dict.keys()
+        if n in keys:
+            dict[n] += 1
+        else:
+            dict[n] = 1
+    return dict
+print(most_frequent(' '))
