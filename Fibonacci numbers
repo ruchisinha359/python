@@ -4,7 +4,7 @@ count = 0
 if n == 1:
    print("The Fibonacci numbers are the numbers in the following integer series: ")
    print(nA)
-else:
+elif n>1:
    print("The Fibonacci numbers are the numbers in the following integer series:")
    while count < n:
        print(nA)
